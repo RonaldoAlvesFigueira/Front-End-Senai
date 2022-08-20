@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family:"TitilliumWeb-Regular" ;
+    src: url(../fonts/TitilliumWeb-Regular.ttf);
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+}
+
+header{
+    background-color: black;
+}
+ .container-grid{
+    /* background-color: rgb(106, 53, 53); */
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+ }
+
+ header .logotipo{
+    width: 280px;
+    
+}
+
+
+.header-flex{
+    display: flex;
+    height: 80px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu{
+    display: flex;
+    width:60% ;
+    max-width: 700px;
+    justify-content: space-between;
+}
+
+header .item-menu{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Roboto-Regular";
+    
+}
+
+.banner{
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/banner_pilotos.png);
+    background-size: cover;
+    
+    
+}
+
+.banner-box{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 600px;
+    border: 3px solid black;
+
+}
+.banner-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    height: 280px;
+    font-family: "Roboto-Regular";
+    color: white;
+}
+.title-banner{
+    font-family:"TitilliumWeb-Regular" ;
+    font-size: 75px;
+    text-align: center;
+
+
+}
+.texto-banner{ margin-top: -50px;
+    font-family:"TitilliumWeb-Regular" ;
+    font-size: 25px;
+    text-align: center;
+   
+
+
+}
+.botao-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 65px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    
+    background-color: #c31616;
+    border-radius: 10px;
+}
